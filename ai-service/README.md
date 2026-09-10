@@ -1,8 +1,20 @@
-# AI Service
+# FitFlow AI Service
 
-This folder contains the FastAPI AI service.
+This folder contains the AI service for the FitFlow application.
 
-Responsibilities:
+## Technology
+
+Python with FastAPI
+
+## Responsibilities
+
 - Personalised workout recommendations
-- AI/ML processing
 - Fitness recommendations
+- User progress analysis
+- AI/ML processing
+
+## Architecture
+
+The NestJS backend sends the required user information to the
+FastAPI service. The FastAPI service processes the information
+using AI/ML models and returns the recommendation to NestJS.
