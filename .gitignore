@@ -1,0 +1,33 @@
+# Flutter
+.dart_tool/
+build/
+.pub-cache/
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# Node.js / NestJS
+node_modules/
+dist/
+.env
+.env.*
+
+# Python / FastAPI
+__pycache__/
+.venv/
+venv/
+*.pyc
+
+# IDE
+.vscode/
+.idea/
+
+# Operating System
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
